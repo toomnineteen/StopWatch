@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+}
+.box{
+    background-color: rgb(196, 227, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+.stopwatch{
+    text-align: center;
+}
+p , button{
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button{
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    cursor: text;
+    cursor: pointer;
+
+}
+p{
+    font-size: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+h1{
+    font-size: 80px;
+}
